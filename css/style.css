@@ -1,0 +1,702 @@
+/*comentario en sass y en css*/
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Clarika geo", "Trebuchet MS", "sans-serif";
+  color: black;
+}
+body header {
+  width: 100%;
+  color: white;
+  margin-top: 0px;
+  display: flex;
+  letter-spacing: 0.2em;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.disclaimer {
+  display: none;
+}
+
+/*Empieza Seccion Header del Index*/
+.barra-navegacion {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+.barra-navegacion .nav-right-section {
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 10px;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.barra-navegacion li {
+  display: flex;
+}
+
+.lm1 {
+  border-radius: 60px;
+  background-color: #6487c2;
+  font-size: small;
+  flex-wrap: wrap;
+}
+
+.nav-right-section > *:hover {
+  border-bottom: 1px solid rgb(48, 108, 112);
+}
+
+.nav-right-section > * {
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.img {
+  height: 130px;
+  border-radius: 10px;
+}
+
+/*Fin Seccion Header del Index*/
+/*Empieza Seccion Bienvenidos a Clinica Index*/
+.section-div2 .especialidad4, .section-div2 .especialidad3, .section-div1 .Especialidad2, .section-div1 .Especialidad1 {
+  background-color: rgb(244, 244, 244);
+  height: 400px;
+  width: 320px;
+}
+
+.section-div2 .especialidad4 .especialidad4-4, .section-div2 .especialidad3 .especialidad3-3, .section-div1 .Especialidad2 .especialidad2-2, .section-div1 .Especialidad1 .especialidad1-1 {
+  height: 80px;
+  width: 320px;
+  background-color: #26E387;
+}
+
+.section-div2, .section-div1 {
+  display: flex;
+  margin-top: 120px;
+  justify-content: space-around;
+}
+
+.section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad {
+  align-items: center;
+  height: 80px;
+  width: 320px;
+}
+
+.div3 ul, .div2 ul {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.div3 li, .div2 li {
+  list-style: none;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.div3 .horarios, .div2 .telefono {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.descripcion-nosotros .div-nosotros, .descripcion-nosotros, .section-nosotros, .box, .section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad, .doctoras-section .parrafo1, .doctoras-section .parrafo, .div4 p, .div3 p, .div2 p, .div1, .section-index, main .carousel-container {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  margin-top: 20px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+main .main-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  align-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  position: relative;
+  justify-content: flex-start;
+}
+main .carousel-container {
+  width: 60%;
+}
+main .aside-placeholder {
+  width: 400px;
+  margin-left: 15px;
+  position: absolute;
+  right: 0px;
+  height: 100%;
+}
+main .card-body {
+  height: 100%;
+}
+main .card-body .btn {
+  background-color: #6487c2;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.section-index {
+  font-size: x-large;
+}
+.section-index .bienvenidos {
+  /* Sirve para que se agrande o achique la letra segun la pantalla que tenemos, es bien responsive. */
+  font-size: clamp(12px, 3vw, 20px);
+  transition-property: all;
+  transition-duration: 2s;
+}
+.section-index .bienvenidos:hover {
+  transform: scale(1.2);
+}
+
+/* Fin Seccion Bienvenidos a Clinica index */
+/*Inicio seccion Main en Index*/
+.section-div2 .especialidad4, .section-div2 .especialidad3, .section-div1 .Especialidad2, .section-div1 .Especialidad1 {
+  background-color: rgb(244, 244, 244);
+  height: 400px;
+  width: 320px;
+}
+
+.section-div2 .especialidad4 .especialidad4-4, .section-div2 .especialidad3 .especialidad3-3, .section-div1 .Especialidad2 .especialidad2-2, .section-div1 .Especialidad1 .especialidad1-1 {
+  height: 80px;
+  width: 320px;
+  background-color: #26E387;
+}
+
+.section-div2, .section-div1 {
+  display: flex;
+  margin-top: 120px;
+  justify-content: space-around;
+}
+
+.section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad {
+  align-items: center;
+  height: 80px;
+  width: 320px;
+}
+
+.div3 ul, .div2 ul {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.div3 li, .div2 li {
+  list-style: none;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.div3 .horarios, .div2 .telefono {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.descripcion-nosotros .div-nosotros, .descripcion-nosotros, .section-nosotros, .box, .section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad, .doctoras-section .parrafo1, .doctoras-section .parrafo, .div4 p, .div3 p, .div2 p, .div1, main .carousel-container, .section-index {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  margin-top: 20px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+main .main-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  align-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  position: relative;
+  justify-content: flex-start;
+}
+main .carousel-container {
+  width: 60%;
+}
+main .aside-placeholder {
+  width: 400px;
+  margin-left: 15px;
+  position: absolute;
+  right: 0px;
+  height: 100%;
+}
+main .card-body {
+  height: 100%;
+}
+main .card-body .btn {
+  background-color: #6487c2;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.section-index {
+  font-size: x-large;
+}
+.section-index .bienvenidos {
+  /* Sirve para que se agrande o achique la letra segun la pantalla que tenemos, es bien responsive. */
+  font-size: clamp(12px, 3vw, 20px);
+  transition-property: all;
+  transition-duration: 2s;
+}
+.section-index .bienvenidos:hover {
+  transform: scale(1.2);
+}
+
+/*Fin Seccion Main en Index*/
+/*Inicio seccion Footer*/
+.section-div2 .especialidad4, .section-div2 .especialidad3, .section-div1 .Especialidad2, .section-div1 .Especialidad1 {
+  background-color: rgb(244, 244, 244);
+  height: 400px;
+  width: 320px;
+}
+
+.section-div2 .especialidad4 .especialidad4-4, .section-div2 .especialidad3 .especialidad3-3, .section-div1 .Especialidad2 .especialidad2-2, .section-div1 .Especialidad1 .especialidad1-1 {
+  height: 80px;
+  width: 320px;
+  background-color: #26E387;
+}
+
+.section-div2, .section-div1 {
+  display: flex;
+  margin-top: 120px;
+  justify-content: space-around;
+}
+
+.section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad {
+  align-items: center;
+  height: 80px;
+  width: 320px;
+}
+
+.div3 ul, .div2 ul {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.div3 li, .div2 li {
+  list-style: none;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.div3 .horarios, .div2 .telefono {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.descripcion-nosotros .div-nosotros, .descripcion-nosotros, .section-nosotros, .box, .section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad, .doctoras-section .parrafo1, .doctoras-section .parrafo, .div4 p, .div3 p, .div2 p, .div1, main .carousel-container, .section-index {
+  display: flex;
+  justify-content: center;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.div1 {
+  grid-area: 1/1/5/2;
+}
+
+.div2 {
+  grid-area: 1/2/5/2;
+}
+.div3 {
+  grid-area: 1/3/5/4;
+}
+.div4 {
+  grid-area: 1/4/5/5;
+}
+.div4 ul {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+}
+.div4 li {
+  list-style: none;
+  justify-content: flex-start;
+  display: flex;
+  width: 100%;
+}
+.div4 .img1-footer {
+  transition: all 1s ease-in-out;
+}
+.div4 .img1-footer:hover {
+  transform: rotate(360deg);
+}
+.div4 .img2-footer {
+  transition: all 1s ease-in-out;
+}
+.div4 .img2-footer:hover {
+  transform: rotate(360deg);
+}
+
+/*Fin de Seccion Footer*/
+/*Empieza Seccion Equipo*/
+.section-div2 .especialidad4, .section-div2 .especialidad3, .section-div1 .Especialidad2, .section-div1 .Especialidad1 {
+  background-color: rgb(244, 244, 244);
+  height: 400px;
+  width: 320px;
+}
+
+.section-div2 .especialidad4 .especialidad4-4, .section-div2 .especialidad3 .especialidad3-3, .section-div1 .Especialidad2 .especialidad2-2, .section-div1 .Especialidad1 .especialidad1-1 {
+  height: 80px;
+  width: 320px;
+  background-color: #26E387;
+}
+
+.section-div2, .section-div1 {
+  display: flex;
+  margin-top: 120px;
+  justify-content: space-around;
+}
+
+.section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad {
+  align-items: center;
+  height: 80px;
+  width: 320px;
+}
+
+.div2 ul, .div3 ul {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.div2 li, .div3 li {
+  list-style: none;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.div2 .telefono, .div3 .horarios {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.descripcion-nosotros .div-nosotros, .descripcion-nosotros, .section-nosotros, .box, .section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad, .doctoras-section .parrafo1, .doctoras-section .parrafo, main .carousel-container, .section-index, .div1, .div2 p, .div3 p, .div4 p {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  max-width: 400px;
+  padding: 0;
+}
+
+.doctoras-section .parrafo {
+  font-size: 32px;
+  align-items: flex-end;
+  font-family: "Clarika geo" "Trebuchet MS" sans-serif;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  color: #c9c9c9;
+}
+.doctoras-section .parrafo1 {
+  font-size: 17px;
+  align-items: flex-end;
+  font-family: "Clarika geo" "Trebuchet MS" sans-serif;
+  margin-bottom: 100px;
+}
+
+/*Fin Seccion Equipo*/
+/*Inicia Seccion Especialidades*/
+.section-div2 .especialidad4, .section-div2 .especialidad3, .section-div1 .Especialidad2, .section-div1 .Especialidad1 {
+  background-color: rgb(244, 244, 244);
+  height: 400px;
+  width: 320px;
+}
+
+.section-div2 .especialidad4 .especialidad4-4, .section-div2 .especialidad3 .especialidad3-3, .section-div1 .Especialidad2 .especialidad2-2, .section-div1 .Especialidad1 .especialidad1-1 {
+  height: 80px;
+  width: 320px;
+  background-color: #26E387;
+}
+
+.section-div2, .section-div1 {
+  display: flex;
+  margin-top: 120px;
+  justify-content: space-around;
+}
+
+.section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad {
+  align-items: center;
+  height: 80px;
+  width: 320px;
+}
+
+.div2 ul, .div3 ul {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.div2 li, .div3 li {
+  list-style: none;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.div2 .telefono, .div3 .horarios {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.descripcion-nosotros .div-nosotros, .descripcion-nosotros, .section-nosotros, .box, .section-div2 .especialidad4 .p-especialidad4, .section-div2 .especialidad3 .p-especialidad3, .section-div1 .Especialidad2 .p-especialidad2, .section-div1 .Especialidad1 .p-especialidad, main .carousel-container, .section-index, .div1, .div2 p, .div3 p, .div4 p, .doctoras-section .parrafo, .doctoras-section .parrafo1 {
+  display: flex;
+  justify-content: center;
+}
+
+.section-especialidades .img-especialidades {
+  display: grid;
+  margin-top: 80px;
+  width: 100%;
+  height: 250px;
+}
+
+/*Fin Seccion Especialidades*/
+/*Inicio Seccion Obras Sociales*/
+.box {
+  height: 80px;
+  font-size: x-large;
+  border-radius: 6px;
+  /* lo mantiene centrado al div con lo de abajo */
+  margin: 50px auto;
+  color: #c9c9c9;
+}
+.box .p-obrassociales {
+  transition-property: all;
+  transition-duration: 2s;
+}
+.box .p-obrassociales:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  max-width: 400px;
+  padding: 0;
+}
+
+.doctoras-section .parrafo {
+  font-size: 32px;
+  align-items: flex-end;
+  font-family: "Clarika geo" "Trebuchet MS" sans-serif;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  color: #c9c9c9;
+}
+.doctoras-section .parrafo1 {
+  font-size: 17px;
+  align-items: flex-end;
+  font-family: "Clarika geo" "Trebuchet MS" sans-serif;
+  margin-bottom: 100px;
+}
+
+.card-img-top {
+  height: 400px;
+}
+
+/* Fin Seccion Obras Sociales */
+/* Inicio Seccion Nosotros */
+.section-div1 .Especialidad1, .section-div1 .Especialidad2, .section-div2 .especialidad3, .section-div2 .especialidad4 {
+  background-color: rgb(244, 244, 244);
+  height: 400px;
+  width: 320px;
+}
+
+.section-div1 .Especialidad1 .especialidad1-1, .section-div1 .Especialidad2 .especialidad2-2, .section-div2 .especialidad3 .especialidad3-3, .section-div2 .especialidad4 .especialidad4-4 {
+  height: 80px;
+  width: 320px;
+  background-color: #26E387;
+}
+
+.section-div1, .section-div2 {
+  display: flex;
+  margin-top: 120px;
+  justify-content: space-around;
+}
+
+.section-div1 .Especialidad1 .p-especialidad, .section-div1 .Especialidad2 .p-especialidad2, .section-div2 .especialidad3 .p-especialidad3, .section-div2 .especialidad4 .p-especialidad4 {
+  align-items: center;
+  height: 80px;
+  width: 320px;
+}
+
+.div2 ul, .div3 ul {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.div2 li, .div3 li {
+  list-style: none;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.div2 .telefono, .div3 .horarios {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.descripcion-nosotros .div-nosotros, .descripcion-nosotros, .section-nosotros, main .carousel-container, .section-index, .div1, .div2 p, .div3 p, .div4 p, .doctoras-section .parrafo, .doctoras-section .parrafo1, .section-div1 .Especialidad1 .p-especialidad, .section-div1 .Especialidad2 .p-especialidad2, .section-div2 .especialidad3 .p-especialidad3, .section-div2 .especialidad4 .p-especialidad4, .box {
+  display: flex;
+  justify-content: center;
+}
+
+.section-nosotros {
+  font-size: x-large;
+}
+
+.descripcion-nosotros {
+  margin-top: 80px;
+  width: 100%;
+  height: 450px;
+}
+.descripcion-nosotros .div-nosotros {
+  width: 40%;
+  align-items: center;
+  margin-right: 50px;
+  height: 100%;
+}
+.descripcion-nosotros .iframe {
+  width: 30%;
+  height: 60%;
+  margin-top: 80px;
+}
+
+/* Fin Seccion Nosotros */
+/*Seccion Media Queris*/
+@media (max-width: 1050px) {
+  .nav-right-section li a {
+    font-size: 13px;
+  }
+  .barra-navegacion {
+    width: 90%;
+  }
+  .parent {
+    width: 90%;
+  }
+  .descripcion-nosotros {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .descripcion-nosotros .div-nosotros {
+    width: 100%;
+    margin-right: 0;
+    height: 50%;
+  }
+  .descripcion-nosotros .iframe {
+    width: 100%;
+    height: 50%;
+    margin-top: 0;
+  }
+}
+@media (max-width: 775px) {
+  .parent {
+    flex-direction: column;
+  }
+  .div1 ul li {
+    justify-content: center;
+  }
+  .div2 ul li {
+    justify-content: center;
+  }
+  .div3 ul li {
+    justify-content: center;
+  }
+  .div4 ul li {
+    justify-content: center;
+  }
+}
+@media (max-width: 795px) {
+  .barra-navegacion .nav-right-section {
+    flex-direction: column;
+    margin-right: 10px;
+    padding-left: 10px;
+  }
+  .barra-navegacion .nav-right-section li {
+    width: 100%;
+  }
+  .barra-navegacion .nav-right-section a {
+    width: 100%;
+    text-align: right;
+  }
+  .barra-navegacion .nav-right-section .lm1 {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1071px) {
+  main .main-section {
+    justify-content: center;
+  }
+  main .carousel-container {
+    width: 100%;
+  }
+  main .aside-placeholder {
+    position: relative;
+    margin-left: unset;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .nav-right-section {
+    letter-spacing: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

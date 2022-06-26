@@ -1,0 +1,15 @@
+//Mixin a utilizar en seccion Equipo
+@mixin Equipo($font-size, $align, $ff, $margin-b) {
+    font-size: $font-size ;
+    align-items: $align ;
+    font-family: $ff ;
+    margin-bottom: $margin-b ; 
+}
+//Fin Mixin a utilizar en seccion Equipo
+//Mixin a Usar en Parshall Header e Index
+@mixin Header-Index ($display, $align-items, $width) {
+    display: $display;
+    align-items: $align-items;
+    width: $width;
+}
+//FIN Mixin a Usar en Parshall Header e Index

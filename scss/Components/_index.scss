@@ -1,0 +1,48 @@
+@import "../base/Extend";
+@import "../base/mixin";
+main{
+    margin-top: 20px;
+    padding: 16px;
+    @include Header-Index (flex,center,100%);
+    .main-section{
+        @include Header-Index (flex,center,100%);
+        flex-direction: row;
+        align-content: space-around;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        position: relative;
+        justify-content: flex-start;
+    }
+    .carousel-container{
+        width: 60%;
+        @extend %display-JCC;
+    }
+    .aside-placeholder{
+        width: 400px;
+        margin-left: 15px;
+        position: absolute;
+        right: 0px;
+        height: 100%;
+    }
+    .card-body{
+        height: 100%;
+        .btn{
+            background-color: nth($colores, 7 );
+            border-radius: 20px;
+            border: 1px solid black;
+        }
+    }
+}
+.section-index{
+    @extend %display-JCC;
+    font-size: x-large;
+    .bienvenidos{
+        /* Sirve para que se agrande o achique la letra segun la pantalla que tenemos, es bien responsive. */
+        font-size: clamp(12px, 3vw, 20px);
+        transition-property: all;
+        transition-duration: 2s ;
+    }
+    .bienvenidos:hover{
+        transform: scale(1.2);
+    }
+}

@@ -1,0 +1,59 @@
+@import "../base/Listas";
+@import "../base/Extend";
+
+
+.section-especialidades{
+    .img-especialidades{
+        display: grid;
+        margin-top: 80px;
+        width: 100%;
+        height: 250px;
+    }
+}
+.section-div1{
+    @extend %Section-Especialidades;
+    .Especialidad1{
+        @extend  %Especialidades; 
+        .especialidad1-1 {
+            @extend  %especialidades;
+        }
+        .p-especialidad{
+            @extend %display-JCC;
+            @extend %p-especialidad;
+        }
+    }
+    .Especialidad2{
+        @extend  %Especialidades; 
+        .especialidad2-2 {
+            @extend  %especialidades;
+        }
+        .p-especialidad2{
+            @extend %display-JCC; 
+            @extend %p-especialidad;
+        }
+    }
+}
+.section-div2{
+    @extend %Section-Especialidades;
+    .especialidad3{
+        @extend  %Especialidades;
+        .especialidad3-3 {
+            @extend  %especialidades;
+        }
+        .p-especialidad3{
+            @extend %display-JCC;
+            @extend %p-especialidad;
+        }
+    }
+    .especialidad4{
+        @extend  %Especialidades;
+        .especialidad4-4 {
+            @extend  %especialidades;
+        }
+        .p-especialidad4{
+            @extend %display-JCC;
+            @extend %p-especialidad;
+        }
+        
+    }
+}

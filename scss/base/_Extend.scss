@@ -1,0 +1,59 @@
+//Extend que esta relacionado con Obras Sociales
+%imagenesOB{
+    border-radius: 800px;
+    width: 225px;
+    height: 225px;
+    justify-content: center;
+    margin-top: 25px;
+    border-radius: 1000px; 
+}
+//FIN Extend que esta relacionado con Obras Sociales
+//Extend que esta relacionado con Especialidades
+@import "../base/Listas";
+%Especialidades{
+    background-color: nth($colores, 2 );
+    height: 400px;
+    width: 320px;
+}
+%especialidades{
+    height: 80px;
+    width: 320px;
+    background-color: nth($colores, 1 );
+}
+%Section-Especialidades{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-around; 
+}
+%p-especialidad{
+    align-items: center;
+    height: 80px;
+    width: 320px;
+}
+//FIN Extend que esta relacionado con Especialidades
+//Extend que esta relacionado con Footer
+%ul-footer{
+    display: block;
+    width: 100%;
+    margin-top: 30px; 
+}
+%li-footer{
+    list-style: none;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    width: 100%; 
+}
+%icon-footer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+//FIN Extend que esta relacionado con Footer
+
+//Extend Comun para varias secciones
+%display-JCC{
+    display: flex;
+    justify-content: center; 
+}
+//FIN Extend Comun para varias secciones

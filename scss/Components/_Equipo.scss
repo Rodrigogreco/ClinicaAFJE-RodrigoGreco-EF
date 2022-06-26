@@ -1,0 +1,18 @@
+@import "../base/Extend";
+@import "../base/mixin";
+.card{
+    max-width: 400px;
+    padding: 0;
+}
+.doctoras-section{
+    .parrafo{
+        @extend %display-JCC; 
+        @include Equipo (32px, flex-end, "Clarika geo" "Trebuchet MS"  sans-serif, 25px );
+        margin-top: 50px;
+        color: #c9c9c9;
+    }
+    .parrafo1{
+    @extend %display-JCC; 
+    @include Equipo (17px, flex-end, "Clarika geo""Trebuchet MS"  sans-serif, 100px );
+    }
+}

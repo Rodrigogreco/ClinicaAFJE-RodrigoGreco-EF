@@ -1,0 +1,37 @@
+@import "../base/mixin";
+.barra-navegacion{
+    @include Header-Index (flex, center, 70%);
+    
+    .nav-right-section{
+        justify-content: space-around;
+        list-style: none;
+        margin-top: 10px;
+        margin-right: 40px;
+        @include Header-Index ( flex,center, 100%);
+    }
+    li{
+        display: flex;
+    }
+}
+.lm1{  
+    border-radius: 60px;
+    background-color: #6487c2;
+    font-size: small;
+    flex-wrap: wrap;
+    
+}
+.nav-right-section > *:hover{
+    border-bottom: 1px solid rgb(48, 108, 112);
+}
+.nav-right-section > *{
+    transition-property: all;
+    transition-duration: 1s;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.img {
+    height: 130px;
+    border-radius: 10px;
+}
